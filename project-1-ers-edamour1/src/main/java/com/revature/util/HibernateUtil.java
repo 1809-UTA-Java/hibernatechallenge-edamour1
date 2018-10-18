@@ -13,8 +13,7 @@ private static SessionFactory sf = sessionFactory("hibernate.cfg.xml");
 	private static SessionFactory sessionFactory(String filename) {
 		Configuration config = new Configuration().configure(filename);
 		
-		ServiceRegistry serviceR = new StandardServiceRegistryBuilder()
-				.applySettings(config.getProperties()).build();
+		ServiceRegistry serviceR = new StandardServiceRegistryBuilder().applySettings(config.getProperties()).build();
 		
 		return config.buildSessionFactory(serviceR);
 	}//end of sessionFactory method

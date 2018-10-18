@@ -12,10 +12,10 @@
   </welcome-file-list>
   -->
   <servlet>
-  
     <servlet-name>ersServlet</servlet-name>
     <servlet-class>com.revature.ersServlet</servlet-class>
   </servlet>
+  
   <servlet-mapping>
     <servlet-name>ersServlet</servlet-name>
     <url-pattern>/welcome</url-pattern>

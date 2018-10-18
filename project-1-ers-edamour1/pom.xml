@@ -20,7 +20,7 @@
   		<scope>provided</scope>
   	</dependency>
   	
-  	   <!-- Oracle dependencies -->
+  	<!-- Oracle dependencies -->
     <dependency>
     	<groupId>com.oracle.jdbc</groupId>
     	<artifactId>ojdbc8</artifactId>
@@ -41,6 +41,6 @@
     	<artifactId>hibernate-core</artifactId>
     	<version>4.3.11.Final</version>
     </dependency>
-    
+        
   </dependencies>
 </project>
